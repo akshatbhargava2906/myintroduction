@@ -6,7 +6,7 @@ function Hero() {
     <section className="min-h-screen relative overflow-hidden flex items-center">
       <div className="absolute inset-0">
         <img 
-          src='${import.meta.env.BASE_URL}background.jpg'
+          src='public/background.jpg'
           alt="Background" 
           className="w-full h-full object-cover"
         />
@@ -96,7 +96,7 @@ function Hero() {
               <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-orange-400 via-amber-400 to-yellow-400 p-1 shadow-2xl">
                 <div className="w-full h-full rounded-full overflow-hidden bg-gray-900">
                   <img 
-                    src="${import.meta.env.BASE_URL}profile.png" 
+                    src="public/profile.png" 
                     alt="Profile" 
                     className="w-full h-full object-cover"
                   />
