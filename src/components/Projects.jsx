@@ -12,7 +12,7 @@ function Projects() {
       id: 1,
       title: "Face Recognition using Deep Learning",
       description: "Building an application based on the paper \"Siamese Neural Networks for One-shot Image Recognition\" using Tensorflow ",
-      image: "public/images/face_recog_p1.jpeg",
+      image: "${import.meta.env.BASE_URL}face_recog_p1.jpeg",
       technologies: ["Python", "Deep Learning", "TensorFlow", "DQN"],
       githubLink: "https://github.com/yourusername/project1",
       liveLink: "" // Optional: leave empty if no live demo
