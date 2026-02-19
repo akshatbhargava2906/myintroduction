@@ -85,6 +85,7 @@ myintroduction/
 ├── src/
 │   ├── components/      # React components
 │   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
 │   │   ├── Projects.jsx
 │   │   ├── Skills.jsx
 │   │   ├── Experience.jsx
@@ -121,7 +122,7 @@ Place images in the `public/` folder and reference them as:
 <img src={`${import.meta.env.BASE_URL}your-image.jpg`} alt="Description" />
 ```
 
-## 📧 Contact Form Setup
+## Contact Form Setup
 
 The contact form uses EmailJS. To set it up:
 
