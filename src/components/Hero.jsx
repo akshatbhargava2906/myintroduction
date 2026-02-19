@@ -6,7 +6,7 @@ function Hero() {
     <section id="home" className="min-h-screen relative overflow-hidden flex items-center">
       <div className="absolute inset-0">
         <img 
-          src='background.jpg'
+          src='singapore-background.jpg'
           alt="Background" 
           className="w-full h-full object-cover"
         />
