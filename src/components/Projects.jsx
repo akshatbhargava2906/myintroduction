@@ -89,7 +89,7 @@ function Projects() {
   };
 
   return (
-    <section className="min-h-screen bg-white py-20 px-6">
+    <section id="projects" className="min-h-screen bg-white py-20 px-6">
       <div className="container mx-auto max-w-7xl">
         
         {/* Section Header */}

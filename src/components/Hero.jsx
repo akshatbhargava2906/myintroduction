@@ -3,7 +3,7 @@ import { Github, Linkedin, Twitter, Mail, Download } from 'lucide-react';
 
 function Hero() {
   return (
-    <section className="min-h-screen relative overflow-hidden flex items-center">
+    <section id="home" className="min-h-screen relative overflow-hidden flex items-center">
       <div className="absolute inset-0">
         <img 
           src='background.jpg'

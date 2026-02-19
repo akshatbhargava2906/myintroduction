@@ -77,7 +77,7 @@ function Skills() {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 py-20 px-6">
+    <section id="skills" className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 py-20 px-6">
       <div className="container mx-auto max-w-7xl">
         
         {/* Section Header */}

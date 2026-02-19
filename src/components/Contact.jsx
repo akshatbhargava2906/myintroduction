@@ -51,7 +51,7 @@ function Contact() {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-orange-500 via-amber-500 to-orange-500 py-20 px-6">
+    <section id="contact" className="min-h-screen bg-gradient-to-br from-orange-500 via-amber-500 to-orange-500 py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         
         {/* Section Header */}

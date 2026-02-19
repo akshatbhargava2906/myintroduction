@@ -55,7 +55,7 @@ function Experience() {
   ];
 
   return (
-    <section className="min-h-screen bg-white py-20 px-6">
+    <section id="experience" className="min-h-screen bg-white py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         
         {/* Section Header */}
