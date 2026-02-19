@@ -119,7 +119,7 @@ The color scheme is based on warm orange/amber tones. To change:
 
 Place images in the `public/` folder and reference them as:
 ```jsx
-<img src={`${import.meta.env.BASE_URL}your-image.jpg`} alt="Description" />
+<img src={`your-image.jpg`} alt="Description" />
 ```
 
 ## Contact Form Setup
@@ -142,16 +142,12 @@ This is a personal portfolio project, but suggestions and feedback are welcome!
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Author
 
 **Akshat Atul Bhargava**
 
 - GitHub: [@akshatbhargava2906](https://github.com/akshatbhargava2906)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- LinkedIn: [bhargavaakshat2906](https://www.linkedin.com/in/bhargavaakshat2906/)
 - Email: akshatatulbhargava@gmail.com
 
 ## Acknowledgments
