@@ -17,7 +17,6 @@ function Contact() {
   const EMAILJS_SERVICE_ID = "service_sqfpbpe";
   const EMAILJS_TEMPLATE_ID = "template_oqzb1np";
   const EMAILJS_PUBLIC_KEY = "lOFxWZp_E4gqRLRnM";
-  const PHONE_NUMBER = "+65 8279 1722";
   const PERS_EMAIL = "akshatatulbhargava@gmail.com";
 
   const handleChange = (e) => {
@@ -117,21 +116,6 @@ function Contact() {
                 <div>
                   <p className="text-white/70 text-sm">Location</p>
                   <p className="text-white font-semibold">Singapore</p>
-                </div>
-              </motion.div>
-
-              <motion.div 
-                className="flex items-center gap-4 bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/20"
-                whileHover={{ scale: 1.02 }}
-              >
-                <div className="bg-white/20 p-3 rounded-lg">
-                  <Phone className="text-white" size={24} />
-                </div>
-                <div>
-                  <p className="text-white/70 text-sm">Phone</p>
-                  <a href={`tel:${PHONE_NUMBER}`} className="text-white font-semibold hover:text-white/80 transition-colors">
-                    {PHONE_NUMBER}
-                  </a>
                 </div>
               </motion.div>
             </div>
