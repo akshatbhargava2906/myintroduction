@@ -14,9 +14,9 @@ function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
-  const EMAILJS_SERVICE_ID = service_sqfpbpe;
-  const EMAILJS_TEMPLATE_ID = template_oqzb1np;
-  const EMAILJS_PUBLIC_KEY = lOFxWZp_E4gqRLRnM;
+  const EMAILJS_SERVICE_ID = "service_sqfpbpe";
+  const EMAILJS_TEMPLATE_ID = "template_oqzb1np";
+  const EMAILJS_PUBLIC_KEY = "lOFxWZp_E4gqRLRnM";
   const PHONE_NUMBER = "+65 8279 1722";
   const PERS_EMAIL = "akshatatulbhargava@gmail.com";
 
