@@ -14,7 +14,6 @@ function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
-  // TODO: Replace these with your EmailJS credentials
   const EMAILJS_SERVICE_ID = service_sqfpbpe;
   const EMAILJS_TEMPLATE_ID = template_oqzb1np;
   const EMAILJS_PUBLIC_KEY = lOFxWZp_E4gqRLRnM;
