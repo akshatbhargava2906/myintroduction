@@ -28,3 +28,17 @@
 .animation-delay-4000 {
   animation-delay: 4s;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}

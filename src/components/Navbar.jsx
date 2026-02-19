@@ -54,44 +54,44 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg transition-all duration-300">
+      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             
             <motion.a
-            href="#home"
-            onClick={(e) => {
+              href="#home"
+              onClick={(e) => {
                 e.preventDefault();
                 scrollToSection('#home');
-            }}
-            className="text-2xl font-bold text-gray-800 transition-colors"
-            whileHover={{ scale: 1.05 }}
+              }}
+              className={`text-2xl font-bold transition-colors ${isScrolled ? 'text-gray-800' : 'text-white'}`}
+              whileHover={{ scale: 1.05 }}
             >
-            Akshat Atul Bhargava
+              Akshat.
             </motion.a>
 
             <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item) => (
+              {navItems.map((item) => (
                 <a
-                key={item.name}
-                href={item.href}
-                onClick={(e) => {
+                  key={item.name}
+                  href={item.href}
+                  onClick={(e) => {
                     e.preventDefault();
                     scrollToSection(item.href);
-                }}
-                className="font-semibold transition-all relative group text-gray-700 hover:text-orange-600"
+                  }}
+                  className={`font-semibold transition-all relative group ${isScrolled ? 'text-gray-700 hover:text-orange-600' : 'text-white hover:text-orange-200'}`}
                 >
-                {item.name}
-                <span className={`absolute -bottom-1 left-0 h-0.5 bg-orange-500 transition-all duration-300 ${activeSection === item.href.slice(1) ? 'w-full' : 'w-0 group-hover:w-full'}`} />
+                  {item.name}
+                  <span className={`absolute -bottom-1 left-0 h-0.5 bg-orange-500 transition-all duration-300 ${activeSection === item.href.slice(1) ? 'w-full' : 'w-0 group-hover:w-full'}`} />
                 </a>
-            ))}
+              ))}
             </div>
 
             <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg transition-colors text-gray-800 hover:bg-gray-100"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className={`md:hidden p-2 rounded-lg transition-colors ${isScrolled ? 'text-gray-800 hover:bg-gray-100' : 'text-white hover:bg-white/10'}`}
             >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
@@ -114,7 +114,8 @@ function Navbar() {
                       e.preventDefault();
                       scrollToSection(item.href);
                     }}
-                    className={`block py-2 font-semibold transition-colors ${activeSection === item.href.slice(1) ? 'text-orange-600' : 'text-gray-700 hover:text-orange-600'}`}>
+                    className={`block py-2 font-semibold transition-colors ${activeSection === item.href.slice(1) ? 'text-orange-600' : 'text-gray-700 hover:text-orange-600'}`}
+                  >
                     {item.name}
                   </a>
                 ))}
