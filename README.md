@@ -6,7 +6,7 @@ A modern, responsive portfolio website showcasing my work as a Data Scientist an
 
 ## Live Demo
 
-Visit the live site: [https://akshatbhargava2906.github.io/myintroduction/](https://akshatbhargava2906.github.io/myintroduction/)
+Visit the live site (Work in Progress): [https://akshatbhargava2906.github.io/myintroduction/](https://akshatbhargava2906.github.io/myintroduction/)
 
 ## About
 
