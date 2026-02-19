@@ -15,11 +15,11 @@ function Contact() {
   const [submitStatus, setSubmitStatus] = useState(null);
 
   // TODO: Replace these with your EmailJS credentials
-  const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-  const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-  const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
-  const PHONE_NUMBER = import.meta.env.VITE_PHONE_NUMBER;
-  const PERS_EMAIL = import.meta.env.VITE_PERS_EMAIL;
+  const EMAILJS_SERVICE_ID = service_sqfpbpe;
+  const EMAILJS_TEMPLATE_ID = template_oqzb1np;
+  const EMAILJS_PUBLIC_KEY = lOFxWZp_E4gqRLRnM;
+  const PHONE_NUMBER = "+65 8279 1722";
+  const PERS_EMAIL = "akshatatulbhargava@gmail.com";
 
   const handleChange = (e) => {
     setFormData({
