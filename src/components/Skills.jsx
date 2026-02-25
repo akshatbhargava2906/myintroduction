@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 
 function Skills() {
-  // Organize your skills by category
+
   const skillCategories = [
     {
       title: "Programming Languages",
@@ -146,7 +146,6 @@ function Skills() {
           ))}
         </motion.div>
 
-        {/* Optional: Add a proficiency level section */}
         <motion.div 
           className="mt-20"
           initial={{ opacity: 0, y: 20 }}

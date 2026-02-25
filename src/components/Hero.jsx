@@ -20,16 +20,14 @@ function Hero() {
 
       {/* Content */}
       <div className="container mx-auto px-6 md:px-12 relative z-10">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-12">
           
-          {/* Left side - Glassmorphism card with text content */}
           <motion.div 
-            className="flex-1"
+            className="flex-1 w-full"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            {/* Glassmorphism Card */}
             <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl p-8 md:p-12 shadow-2xl">
               <motion.h1 
                 className="text-5xl md:text-6xl font-bold mb-4 text-white"
@@ -81,22 +79,18 @@ function Hero() {
             </div>
           </motion.div>
 
-          {/* Right side - Profile image with warm glow effect */}
           <motion.div 
-            className="flex-1 flex justify-center md:justify-end"
+            className="flex-1 flex justify-center md:justify-end mb-8 md:mb-0"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <div className="relative">
-              {/* Warm glowing backdrop */}
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500 via-amber-500 to-yellow-500 rounded-full blur-3xl opacity-40 animate-pulse"></div>
-              
-              {/* Profile image container with warm gradient border */}
-              <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-orange-400 via-amber-400 to-yellow-400 p-1 shadow-2xl">
+              <div className="relative w-56 h-56 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-orange-400 via-amber-400 to-yellow-400 p-1 shadow-2xl">
                 <div className="w-full h-full rounded-full overflow-hidden bg-gray-900">
                   <img 
-                    src="profile.png" 
+                    src={`profile.png`}
                     alt="Profile" 
                     className="w-full h-full object-cover"
                   />

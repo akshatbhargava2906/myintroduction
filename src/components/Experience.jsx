@@ -162,14 +162,12 @@ function Experience() {
                   </motion.div>
                 </div>
 
-                {/* Empty space for alternating layout on desktop */}
                 <div className="hidden md:block w-5/12"></div>
               </motion.div>
             ))}
           </div>
         </div>
 
-        {/* Optional: Skills gained section */}
         <motion.div 
           className="mt-20 bg-gradient-to-br from-orange-50 to-amber-50 rounded-3xl p-8 md:p-12"
           initial={{ opacity: 0, y: 20 }}
