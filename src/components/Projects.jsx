@@ -6,7 +6,7 @@ function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
 
-  // Your projects data - easily update later
+  
   const projects = [
     {
       id: 1,
@@ -14,8 +14,8 @@ function Projects() {
       description: "Building an application based on the paper \"Siamese Neural Networks for One-shot Image Recognition\" using Tensorflow ",
       image: "face_recog_p1.jpeg",
       technologies: ["Python", "Deep Learning", "TensorFlow", "DQN"],
-      githubLink: "https://github.com/yourusername/project1",
-      liveLink: "" // Optional: leave empty if no live demo
+      githubLink: "https://github.com/akshatbhargava2906/one_shot_face_recognition",
+      liveLink: "" 
     },
     {
       id: 2,
