@@ -19,11 +19,11 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Project Name 2",
-      description: "Brief description of your project. What problem did it solve? What technologies did you use? What was the impact?",
-      image: "https://via.placeholder.com/600x400/fb923c/ffffff?text=Project+2",
+      title: "Penny - Personal Expense Tracker",
+      description: "A PWA expense tracker with daily, weekly, and monthly budget limits. Built with React + Vite + Dexie.js. Fully offline, installable on any device.",
+      image: "penny.png",
       technologies: ["React", "Node.js", "MongoDB", "Docker"],
-      githubLink: "https://github.com/yourusername/project2",
+      githubLink: "https://github.com/akshatbhargava2906/penny",
       liveLink: ""
     },
     {
