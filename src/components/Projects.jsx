@@ -22,7 +22,7 @@ function Projects() {
       title: "Penny - Personal Expense Tracker",
       description: "A PWA expense tracker with daily, weekly, and monthly budget limits. Built with React + Vite + Dexie.js. Fully offline, installable on any device.",
       image: "penny.png",
-      technologies: ["React", "Node.js", "MongoDB", "Docker"],
+      technologies: ["React", "Dexie.js", "Vite", "Docker", "PWA"],
       githubLink: "https://github.com/akshatbhargava2906/penny",
       liveLink: ""
     },
