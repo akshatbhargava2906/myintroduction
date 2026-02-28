@@ -53,7 +53,7 @@ function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
               >
-                Data Science graduate student at NUS with 2+ years at Mastercard. Building scalable data-driven systems and turning business challenges into actionable insights through machine learning and analytics.              </motion.p>
+                Data Science graduate student at NUS with 3 years at Mastercard. Building scalable data-driven systems and turning business challenges into actionable insights through machine learning and analytics.              </motion.p>
 
               {/* Buttons and social links */}
               <motion.div 
