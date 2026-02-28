@@ -62,10 +62,10 @@ function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
               >
-                <button className="bg-white text-orange-900 px-6 py-3 rounded-full font-semibold hover:bg-orange-50 transition-all flex items-center gap-2 shadow-lg hover:scale-105 transform">
+                <a href="/Akshat_Atul_Bhargava_Resume_DS.docx" download className="bg-white text-orange-900 px-6 py-3 rounded-full font-semibold hover:bg-orange-50 transition-all flex items-center gap-2 shadow-lg hover:scale-105 transform inline-flex">
                   <Download size={20} />
                   Download CV
-                </button>
+                </a>
                 
                 <div className="flex gap-3">
                   <a href="https://github.com/akshatbhargava2906" className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center hover:bg-white/20 transition-all text-white hover:scale-110 transform">
