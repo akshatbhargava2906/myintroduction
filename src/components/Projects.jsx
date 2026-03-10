@@ -19,29 +19,29 @@ function Projects() {
     },
     {
       id: 2,
+      title: "Movie Recommendation System using Apache Spark MLlib",
+      description: "A scalable, end-to-end movie recommendation system built on the MovieLens dataset using Apache Spark MLlib and deployed on Google Cloud Platform.",
+      image: "movierecommender.png",
+      technologies: ["Pandas", "PySpark", "Apache Spark MLLib", "Google Cloud Platform"],
+      githubLink: "https://github.com/akshatbhargava2906/movie-recommender-system",
+      liveLink: ""
+    },
+    {
+      id: 3,
+      title: "Machine Learning on Weather Data",
+      description: "A scalable, end-to-end machine learning pipeline for predicting surface air temperature using large-scale meteorological data from the NOAA Global Hourly Integrated Surface Dataset (ISD). Built on Apache Spark MLlib and deployed on Google Cloud Platform, the project benchmarks three regression models across 100M+ weather observations.",
+      image: "weather-model.png",
+      technologies: ["Python", "Pandas", "PySpark", "Apache Spark MLlib", "Google Cloud Platform", "Data Visualization", "Model Evaluation"],
+      githubLink: "https://github.com/akshatbhargava2906/machine-learning-on-weather-data",
+      liveLink: ""
+    },
+    {
+      id: 4,
       title: "Penny - Personal Expense Tracker",
       description: "A PWA expense tracker with daily, weekly, and monthly budget limits. Built with React + Vite + Dexie.js. Fully offline, installable on any device.",
       image: "penny.png",
       technologies: ["React", "Dexie.js", "Vite", "Docker", "PWA"],
       githubLink: "https://github.com/akshatbhargava2906/penny",
-      liveLink: ""
-    },
-    {
-      id: 3,
-      title: "Project Name 3",
-      description: "Brief description of your project. What problem did it solve? What technologies did you use? What was the impact?",
-      image: "https://via.placeholder.com/600x400/fdba74/ffffff?text=Project+3",
-      technologies: ["Pandas", "Scikit-learn", "FastAPI", "PostgreSQL"],
-      githubLink: "https://github.com/yourusername/project3",
-      liveLink: ""
-    },
-    {
-      id: 4,
-      title: "Project Name 4",
-      description: "Brief description of your project. What problem did it solve? What technologies did you use? What was the impact?",
-      image: "https://via.placeholder.com/600x400/fed7aa/ffffff?text=Project+4",
-      technologies: ["PyTorch", "Flask", "Redis", "Kubernetes"],
-      githubLink: "https://github.com/yourusername/project4",
       liveLink: ""
     },
     {
