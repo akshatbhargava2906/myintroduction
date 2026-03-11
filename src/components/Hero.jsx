@@ -62,7 +62,11 @@ function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
               >
-                <a href="Akshat_Atul_Bhargava_Resume.pdf" download className="bg-white text-orange-900 px-6 py-3 rounded-full font-semibold hover:bg-orange-50 transition-all flex items-center gap-2 shadow-lg hover:scale-105 transform inline-flex">
+                <a 
+                  href={`Akshat_Atul_Bhargava_Resume.pdf`}
+                  download="Akshat_Atul_Bhargava_Resume.pdf"
+                  className="bg-white text-orange-900 px-6 py-3 rounded-full font-semibold hover:bg-orange-50 transition-all flex items-center gap-2 shadow-lg hover:scale-105 transform"
+                >
                   <Download size={20} />
                   Download CV
                 </a>
