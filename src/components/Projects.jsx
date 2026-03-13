@@ -44,15 +44,33 @@ function Projects() {
       githubLink: "https://github.com/akshatbhargava2906/penny",
       liveLink: ""
     },
-    {
-      id: 5,
-      title: "Project Name 5",
-      description: "Brief description of your project. What problem did it solve? What technologies did you use? What was the impact?",
-      image: "https://via.placeholder.com/600x400/ffedd5/ffffff?text=Project+5",
-      technologies: ["Apache Spark", "Airflow", "Tableau", "GCP"],
-      githubLink: "https://github.com/yourusername/project5",
-      liveLink: ""
-    }
+    // {
+    //   id: 5,
+    //   title: "Project Name 5",
+    //   description: "Brief description of your project. What problem did it solve? What technologies did you use? What was the impact?",
+    //   image: "https://via.placeholder.com/600x400/ffedd5/ffffff?text=Project+5",
+    //   technologies: ["Apache Spark", "Airflow", "Tableau", "GCP"],
+    //   githubLink: "https://github.com/yourusername/project5",
+    //   liveLink: ""
+    // },
+    // {
+    //   id: 6,
+    //   title: "Project Name 6",
+    //   description: "Brief description of your project. What problem did it solve? What technologies did you use? What was the impact?",
+    //   image: "https://via.placeholder.com/600x400/ffedd5/ffffff?text=Project+6",
+    //   technologies: ["Apache Spark", "Airflow", "Tableau", "GCP"],
+    //   githubLink: "https://github.com/yourusername/project6",
+    //   liveLink: ""
+    // },
+    // {
+    //   id: 7,
+    //   title: "Project Name 7",
+    //   description: "Brief description of your project. What problem did it solve? What technologies did you use? What was the impact?",
+    //   image: "https://via.placeholder.com/600x400/ffedd5/ffffff?text=Project+7",
+    //   technologies: ["Apache Spark", "Airflow", "Tableau", "GCP"],
+    //   githubLink: "https://github.com/yourusername/project7",
+    //   liveLink: ""
+    // }
   ];
 
   const projectsPerPage = 3;
