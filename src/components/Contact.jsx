@@ -167,7 +167,7 @@ function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
-                    placeholder="John Doe"
+                    placeholder=""
                   />
                 </div>
 
@@ -184,7 +184,7 @@ function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
-                    placeholder="john@example.com"
+                    placeholder=""
                   />
                 </div>
 
@@ -201,7 +201,7 @@ function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
-                    placeholder="Project Inquiry"
+                    placeholder=""
                   />
                 </div>
 
@@ -218,7 +218,7 @@ function Contact() {
                     required
                     rows="5"
                     className="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all resize-none"
-                    placeholder="Tell me about your project..."
+                    placeholder=""
                   />
                 </div>
 

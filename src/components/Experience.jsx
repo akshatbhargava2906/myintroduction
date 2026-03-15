@@ -180,10 +180,11 @@ function Experience() {
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[
+              "Python", "Machine Learning", "Deep Learning", "Data Analysis",
+              "NumPy", "Pandas", "Scikit-learn", "TensorFlow",
+              "Data Visualization", "Statistics", "Feature Engineering", "SQL",
               "Java", "Spring Boot", "Microservices", "REST APIs",
-              "Postman", "Datadog", "Unit Testing", "Integration Testing",
-              "Performance Testing", "Code Review", "Git", "CI/CD",
-              "Python", "Machine Learning", "Data Analysis", "SQL"
+              "Postman", "Datadog", "Git", "CI/CD"
             ].map((tech, idx) => (
               <span 
                 key={idx}

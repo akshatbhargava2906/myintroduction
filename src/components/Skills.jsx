@@ -146,7 +146,7 @@ function Skills() {
           ))}
         </motion.div>
 
-        <motion.div 
+        {/* <motion.div 
           className="mt-20"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -189,7 +189,7 @@ function Skills() {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
       </div>
     </section>
